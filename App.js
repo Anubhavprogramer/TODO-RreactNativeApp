@@ -41,7 +41,7 @@ export default function App() {
         style={styles.writeTaskWrapper}>
         <TextInput 
           style={styles.input} 
-          placeholder={'Write a Task'} 
+          placeholder={'Write a Task you have to do'} 
           onChangeText={(text) => setTask(text)} 
           value={task} 
         />
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     paddingHorizontal: 15,
     marginHorizontal: 10,
-    width: 250,
+    width: '80%',
     backgroundColor: '#fff',
     borderRadius: 60,
     borderColor: '#91fbe8',
@@ -91,8 +91,8 @@ const styles = StyleSheet.create({
     boxShadow: '0 0 5px #91fbe8',
   },
   addWrapper: {
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
     backgroundColor: '#fff',
     borderRadius: 60,
     justifyContent: 'center',
